@@ -1,0 +1,5 @@
+config:
+    connection:
+        bot_token: "1433270258:AAG37DCH0GBDh5IxS0EAj8xQjT93N5dI3Jo"
+    telegram:
+        prefix: '>'
