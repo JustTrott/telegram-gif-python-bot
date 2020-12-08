@@ -11,6 +11,8 @@ bot = telebot.TeleBot(cfg.bot_token)
 
 def isStringA(text):
     allowed_symbols = ['a', 'а', '!', '.', '?', ',']
+    if not (text.startswith('a') or text.startswith('а')):
+        return False
     for letter in text:
         if letter not in allowed_symbols:
             return False
