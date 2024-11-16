@@ -15,8 +15,8 @@ This is a simple Python bot that automatically sends a GIF in response to every 
 ### 1. Clone the Repository  
 Clone the repository to your local machine:  
 ```bash  
-git clone <repository_url>  
-cd <repository_folder>  
+git clone https://github.com/JustTrott/telegram-gif-python-bot.git 
+cd telegram-gif-python-bot
 ```  
 
 ### 2. Install Python 3.8  
